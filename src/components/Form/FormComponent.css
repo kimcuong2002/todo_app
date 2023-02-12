@@ -1,0 +1,34 @@
+:root{
+    --red : #BB0707;
+}
+
+.input-field{
+    display: block;
+    justify-content: center;
+}
+.label-input {
+    font-weight: bold;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+input{
+    width: 97%;
+    outline: none;
+    margin-bottom: 10px;
+}
+label{
+    color: (--red)
+}
+.footer_newjob{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.btn_cancel{
+    cursor: pointer;
+}
+.btn_complete{
+    cursor: pointer;
+}

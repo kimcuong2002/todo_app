@@ -1,0 +1,58 @@
+.header_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_container{
+    font-size: 20px;
+    font-weight: bold;
+}
+.add{
+    font-size: 15px;
+}
+
+.add:hover{
+    background-color: yellow;
+}
+.header_title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.stt{
+    width: 5%;
+}
+.name{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.time_start{
+    width:20%;
+    display: flex;
+    justify-content: center;
+}
+.time_end{
+    width:20%;
+    display: flex;
+    justify-content: center;
+}
+.priority{
+    width:15%;
+    display: flex;
+    justify-content: center;
+}
+.action{
+    width: 9%;
+    display:flex;
+    justify-content:center;
+
+}
+
+@media (min-width: 768px){
+    .header_title{
+    font-size: 18px;
+    }
+}

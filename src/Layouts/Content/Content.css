@@ -1,0 +1,73 @@
+:root{
+    --red: #BB0707;
+}
+.content_container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    border-top: 5px solid black;
+    padding-top: 10px;
+    font-size: 12px;
+    box-shadow: 0 0 0 0.1 rgb(0 0 0 0.5);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.stt{
+    width: 5%;
+}
+.name{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    color: var(--red)
+}
+.time_start{
+    width:20%;
+    display: flex;
+    justify-content: center;
+}
+.time_end{
+    width:20%;
+    display: flex;
+    justify-content: center;
+}
+.priority{
+    width:15%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+}
+.btn_update{
+    width:4%;
+    display : flex;
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+}
+.btn_delete{
+    display : flex;
+    width:5%;
+    crusor: pointer;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 768px){
+    .content_container{
+        font-size: 15px;
+    }
+}
+@media (min-width: 1024px){
+    .content_container{
+        font-size:15px;
+    }
+}
+
+
